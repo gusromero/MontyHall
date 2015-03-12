@@ -35,7 +35,7 @@ public class main {
 		System.out.println("Without Change:");
 		System.out.println("Num Iterations: " +NUM_ITERATIONS );
 		System.out.println("Winnings: " +positiveResults );
-		System.out.println("Percentage: " + (float) positiveResults/NUM_ITERATIONS );
+		System.out.println("Percentage: " + (float) 100* positiveResults/NUM_ITERATIONS );
 		
 		
 		System.out.println("--------------------------------");
@@ -63,7 +63,7 @@ public class main {
 		System.out.println("Changing:");
 		System.out.println("Num Iterations: " +NUM_ITERATIONS );
 		System.out.println("Winnings: " +positiveResults );
-		System.out.println("Percentage: " + (float) positiveResults/NUM_ITERATIONS );
+		System.out.println("Percentage: " + (float) 100* positiveResults/NUM_ITERATIONS );
 	}
 
 	
